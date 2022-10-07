@@ -1,4 +1,4 @@
-import { ButtonTaskList } from './ButtonTaskList';
+import { ButtonTaskList } from './ButtonActions';
 
 export const TaskList = ({taskItems, handleEdit, handleDelete}) => (
     <div className='my-5' style={{ maxHeight: '250px', overflow: 'hidden auto' }}>

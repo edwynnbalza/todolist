@@ -1,4 +1,4 @@
-import { ButtonSubmitForm } from "./ButtonTaskList";
+import { ButtonSubmitForm } from "./ButtonActions";
 
 export const TaskForm = ({ handleSave, task, setTask }) => {
 
@@ -15,6 +15,7 @@ return (
         placeholder="Ingrese una tarea"
         onChange={(e) => setTask(e.target.value)}
         className="form-control"
+        maxLength="50"
         />
         <ButtonSubmitForm
             name="Save"
