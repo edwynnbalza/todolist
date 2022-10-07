@@ -15,7 +15,7 @@ return (
         className="form-control"
         />
 
-        <button className="btn btn-primary btn-warning my-4">Guardar</button>
+        <button className="btn btn-primary btn-warning my-4">Save</button>
     </form>
 
 )
