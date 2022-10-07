@@ -6,15 +6,16 @@ const onSubmit = (event) => {
 }
 
 return (
-    <form onSubmit={onSubmit}>
+    <form onSubmit={onSubmit} className='my-4 row'>
         <input
         type="text"
         value={task}
         placeholder="Ingrese una tarea"
         onChange={(e) => setTask(e.target.value)}
+        className="form-control"
         />
 
-        <button>Guardar</button>
+        <button className="btn btn-primary btn-warning my-4">Guardar</button>
     </form>
 
 )
