@@ -1,3 +1,5 @@
+import { ButtonSubmitForm } from "./ButtonTaskList";
+
 export const TaskForm = ({ handleSave, task, setTask }) => {
 
 const onSubmit = (event) => {
@@ -14,8 +16,10 @@ return (
         onChange={(e) => setTask(e.target.value)}
         className="form-control"
         />
-
-        <button className="btn btn-primary btn-warning my-4">Save</button>
+        <ButtonSubmitForm
+            name="Save"
+            styled="btn btn-primary btn-warning my-4"
+        />
     </form>
 
 )

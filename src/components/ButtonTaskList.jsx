@@ -5,4 +5,10 @@ export const ButtonTaskList = ({ handleButton, task, name, styled }) => (
     >
         {name}
     </button>
+);
+
+export const ButtonSubmitForm = ({ name, styled }) => (
+    <button className={styled}>
+        {name}
+    </button>
 )
